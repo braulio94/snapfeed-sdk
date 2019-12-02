@@ -1,0 +1,32 @@
+name: snapfeed
+description: The interactive user feedback tool for Flutter.
+version: 0.0.1
+author: snapfeed.dev
+homepage: https://snapfeed.dev
+
+environment:
+  sdk: ">=2.5.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: 0.12.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  assets:
+    - packages/snapfeed/assets/images/default.png
+    - packages/snapfeed/assets/images/logo_draw.png
+    - packages/snapfeed/assets/images/pen.png
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: lib/assets/fonts/Poppins-Regular.ttf
+        - asset: lib/assets/fonts/Poppins-Medium.ttf
+          weight: 500
